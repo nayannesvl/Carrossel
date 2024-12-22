@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  cursor: auto;
+}
+
+.pagina:nth-child(odd){
+  background: linear-gradient(-229deg, rgb(30,255,0), rgb(17,30,218));
+}
+
+.pagina:nth-child(even){
+  background: linear-gradient(-80deg, rgb(255,0,85), rgb(93,6,115));
+}
+
+.slide{
+  width: 100%;
+  height: 100vh;
+  background: #161617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagina{
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  transition: width 0.9s;
+
+}
+
+.pagina:hover{
+  width: 300px;
+}
+
+.pagina:active{
+  background-color: grey;
+}
